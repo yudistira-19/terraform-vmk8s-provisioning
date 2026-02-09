@@ -59,7 +59,6 @@ terraform apply
 ```
 
 ### Init
-
 The first command to run for a new configuration is  `terraform init`, which initializes various local settings and data that will be used by subsequent commands. This command will sets up everything Terraform needs before you can plan or apply infrastructure.
 
 ### Plan
