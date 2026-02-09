@@ -41,7 +41,7 @@ The set of files used to describe infrastructure in Terraform is simply known as
    
 3. For all files which match `terraform.tfvars` or `*.auto.tfvars` present in the current directory, Terraform automatically loads them to populate variables. This file provides the actual values for actual variables.
 
-4.(optional) The `output.tf` file defines what information Terraform should print out after running apply or plan
+4. (optional) The `output.tf` file defines what information Terraform should print out after running apply or plan
 
 > Note: Although .tfvars files are usually not distributed for security reasons, I included mine here for demonstration purposes.
 
