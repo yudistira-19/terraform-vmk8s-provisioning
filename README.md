@@ -69,3 +69,17 @@ The first command to run for a new configuration is  `terraform init`, which ini
 
 **Destroy**
 `terraform destroy` is the cleanup command in Terraform. It removes all the resources that were previously created by your configuration, essentially reversing what `terraform apply` did.
+
+
+## Inspiration & Acknowledgments
+
+This project was inspired by and builds upon several great open-source projects:
+
+### Core Inspiration
+- **[terraform-deploy-vmware-vm](https://github.com/cloudmaniac/terraform-deploy-vmware-vm)** - Excellent reference for vSphere Terraform patterns
+- [Terraform vSphere Provider Examples](https://github.com/hashicorp/terraform-provider-vsphere) - Official examples from HashiCorp
+
+### Libraries & Tools Used
+- [Terraform](https://www.terraform.io/) - Infrastructure as Code
+
+Special thanks to the maintainers of these projects for their excellent work! ><
