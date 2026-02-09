@@ -58,16 +58,17 @@ terraform plan
 terraform apply
 ```
 
-**Init**
+### Init
+
 The first command to run for a new configuration is  `terraform init`, which initializes various local settings and data that will be used by subsequent commands. This command will sets up everything Terraform needs before you can plan or apply infrastructure.
 
-**Plan**
+### Plan
 `terraform plan` is the dry run step in Terraform. It shows you what Terraform would do if you applied your configuration, without actually making any changes yet.
 
-**Apply**
+### Apply
 `terraform apply` is the command that actually executes the changes described in your configuration and confirmed in the `terraform plan`.
 
-**Destroy**
+### Destroy
 `terraform destroy` is the cleanup command in Terraform. It removes all the resources that were previously created by your configuration, essentially reversing what `terraform apply` did.
 
 
